@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+
+  long long int a,b,i,sum;
+  scanf("%lld %lld",&a, &b);
+
+  sum=((b*(b+1))/2)-((a*(a-1))/2);
+  printf("%lld\n",sum);
+
+    return 0;
+}
